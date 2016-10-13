@@ -1,0 +1,8 @@
+r
+h
+speed 1200
+exec device=stm32f205rb
+loadbin gcc\stm32f205.bin 0x08000000
+r
+g
+qc
